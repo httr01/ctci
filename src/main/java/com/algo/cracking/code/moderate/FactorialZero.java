@@ -46,7 +46,7 @@ public class FactorialZero {
 	}
 	
 	@Test
-	public void test_BoundryCases() {
+	public void test_BoundaryCases() {
 		Assert.assertEquals(0, countZeroInFactorialOf(0));
 		Assert.assertEquals(0, countZeroInFactorialOf(-10));
 	}
