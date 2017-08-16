@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.nio.Buffer;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
+import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -23,8 +24,9 @@ public class FrequencyOfWordsInBook {
 		return 0;
 	}
 	
-	private int countWordFrequency(String word, String data, Map<String,Integer>  ){
-		
+	private int countWordFrequency(String word, String data, Map<String,Integer> mapOfWords  ){
+		// todo
+		return 0; 
 	}
 	
 	
